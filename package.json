@@ -47,7 +47,7 @@
     "Angular2"
   ],
   "author": "Vladimir Pavkovic",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/vladimirpavk/Angular2-Skeleton.git"
