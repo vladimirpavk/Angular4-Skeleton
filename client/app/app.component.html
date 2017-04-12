@@ -1,1 +1,14 @@
 <h1>Angular 4.0.1</h1>
+
+<button (click)="Button_clicked()"> Pritisni me </button>
+
+<div *ngIf="vrednost; else loading">
+    Vrednost je prikazana
+</div>
+
+<ng-template #loading>
+    <div>
+        Učitava se vrednost
+    </div>
+
+</ng-template>
