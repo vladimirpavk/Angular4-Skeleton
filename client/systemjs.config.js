@@ -23,6 +23,7 @@
       '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
       // other libraries
       'rxjs': 'npm:rxjs',         
+      'commoncomponents': 'npm:ng2-flashbox'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -32,7 +33,11 @@
       },
       rxjs: {
         defaultExtension: 'js'
-      }     
+      },
+      commoncomponents: {
+        main: './commoncomponents.module.js',
+        defaultExtension: 'js'
+      }
     }
   });
 })(this);

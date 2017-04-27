@@ -12,3 +12,15 @@
     </div>
 
 </ng-template>
+
+<flash-box #fb1>
+        <!-- HTML Message -->
+        <div style="border-type: solid; border-width:2px">
+            <label style="color: rgb(0,0,0); text-decoration: underline;">Information message</label>
+        </div>
+        <label>
+            Any message
+        </label>
+</flash-box> 
+
+<button (click)="fb1.flashOnce()">Klikni me</button>
