@@ -1,5 +1,7 @@
 /// <reference path="../../node_modules/@angular/core/core.d.ts" />
 /// <reference path="../../node_modules/ng2-flashbox/index.d.ts" />
+/// <reference types="typescript" />
+/// <reference path="../../typings/index.d.ts" />
 
 var __moduleName: any;
 
