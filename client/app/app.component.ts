@@ -1,12 +1,7 @@
-/// <reference path="../../node_modules/@angular/core/core.d.ts" />
-/// <reference path="../../node_modules/ng2-flashbox/index.d.ts" />
-/// <reference types="typescript" />
-/// <reference path="../../typings/index.d.ts" />
-
 var __moduleName: any;
 
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
-import { FlashBoxComponent } from 'commoncomponents';
+import { FlashBoxComponent } from 'ng2-flashbox';
 
 @Component({
   moduleId: __moduleName,
@@ -28,8 +23,7 @@ export class AppComponent implements OnInit, AfterViewInit{
   }
 
   ngAfterViewInit(){
-    this.fb1.
-    this.fb1.flashOnce();
+    //this.fb1.flashOnce();
   }
 
   
