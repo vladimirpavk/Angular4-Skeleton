@@ -1,5 +1,4 @@
 /node_modules/*
-!/node_modules/ng2-flashbox
 /typings
 /client/app/**/*.js
 /client/app/**/*.map
