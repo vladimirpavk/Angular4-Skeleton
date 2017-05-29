@@ -8,11 +8,9 @@ import { FlashBoxComponent } from 'ng2-flashbox';
   selector: 'my-app',
   templateUrl: 'app.component.html'
 })
-export class AppComponent implements OnInit, AfterViewInit{ 
+export class AppComponent implements OnInit{ 
 
   private vrednost: boolean = true;
-
-  @ViewChild("fb1") fb1: FlashBoxComponent;
 
   private Button_clicked(): void{
     this.vrednost=!this.vrednost;
@@ -21,10 +19,4 @@ export class AppComponent implements OnInit, AfterViewInit{
   ngOnInit(){
         
   }
-
-  ngAfterViewInit(){
-    //this.fb1.flashOnce();
-  }
-
-  
 }

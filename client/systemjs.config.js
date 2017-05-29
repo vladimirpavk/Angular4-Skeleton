@@ -35,7 +35,8 @@
         defaultExtension: 'js'
       },
       'ng2-flashbox': {
-        main: './commoncomponents.module.js',
+        //main: './commoncomponents.module.js',
+        main: 'index',
         defaultExtension: 'js'
       }
     }
