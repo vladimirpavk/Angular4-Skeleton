@@ -1,7 +1,6 @@
 var __moduleName: any;
 
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
-import { FlashBoxComponent } from 'ng2-flashbox';
 
 @Component({
   moduleId: __moduleName,
@@ -13,6 +12,7 @@ export class AppComponent implements OnInit{
   private vrednost: boolean = true;
 
   private Button_clicked(): void{
+    //Angular 4 feature
     this.vrednost=!this.vrednost;
   }
 
