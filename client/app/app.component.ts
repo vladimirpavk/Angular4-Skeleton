@@ -1,6 +1,7 @@
 var __moduleName: any;
 
 import { Component, OnInit, ViewChild, AfterViewInit } from '@angular/core';
+import { FlashBoxComponent } from 'ng2-flashbox';
 
 @Component({
   moduleId: __moduleName,
@@ -16,7 +17,9 @@ export class AppComponent implements OnInit{
     this.vrednost=!this.vrednost;
   }
 
+  private fb1: FlashBoxComponent;
+
   ngOnInit(){
-        
+        //this.fb1.
   }
 }
