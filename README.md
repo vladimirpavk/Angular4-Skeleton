@@ -35,10 +35,8 @@ Install node dependencies in your project root directory (this is where the 'pac
 ```sh
 $ npm install
 ``` 
-Install typescript definitions using:
-```sh
-$ typings install
-```
+If you use typescript 2.0 or higher no need to install typescript definitons with typings. Moved to npm/@types.
+
 Start application with 
 ```sh
 $ gulp
